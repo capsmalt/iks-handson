@@ -101,14 +101,6 @@ K8sは，アプリケーションを新しいバージョンのコンテナイ�
     deployment.extensions/guestbook image updated
     ```
 
-    **以下必要？？？？不要なのでは？要検討** → なくてもいいかも・・（岸田）
-    
-   ※1つのPodは，複数のコンテナで構成することが可能です。各々固有の名前を持っており，その名前を使用することによって個別にイメージを変更したり，一度に全てのコンテナイメージを変更させることも可能です。
-   `guestbook` のDeploymentにおけるコンテナ名は，`guestbook` です。
-
-    複数コンテナを同時にアップデート 
-    ([More information](https://kubernetes.io/docs/user-guide/kubectl/kubectl_set_image/).)
-
 2. 古いDeploymentが削除され，新しいバージョンにアップデートされていく様子を以下のコマンドで確認します。
 
     `$ kubectl rollout status deployment/guestbook`
