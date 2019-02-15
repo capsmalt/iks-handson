@@ -82,7 +82,7 @@ Helm チャートと呼ばれる定義ファイルを使用すると，アプリ
     $ ibmcloud cs cluster-config mycluster
     出力結果の`export xxx`をターミナル上でペーストする
     $ export xxxx
-    $ kubectl get pods
+    $ kubectl get nodes
     XXXXXXX 正常に実行できることが確認できればOK
     $ ibmcloud cs cluster-get mycluster
     ```
