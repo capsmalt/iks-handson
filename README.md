@@ -24,6 +24,6 @@ Lab4-5は続けて実施ください。
 6. [Lab 6](Lab6): Helm Chart基礎の体験 (サンプルチャートの作成・操作)
 
 Lab1-3では，Kubernetesの基礎を学びます。  
-具体的には，Kubernetesの泥臭い作業(kubectl run xxx)やマニュフェストファイル(xxx.yaml)を使用した宣言的な定義などを経験します。  
+具体的には，Kubernetesの泥臭い作業(kubectl run xxx)やマニュフェストファイル(yamlファイル)を使用した宣言的な定義などを経験します。  
 
 Lab4以降では，Kubernetesのパッケージング技術の1つである **Helm** を使用した一括デプロイや，PaaSサービスの1つである IBM Cloudの画像認識サービス(Visual Recognition)と連携させるなど応用編を体験します。
